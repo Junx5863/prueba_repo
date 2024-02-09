@@ -16,9 +16,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: TextButton(
-          onPressed: () {
-            checkPermission(Permission.locationAlways, context);
-          },
+          onPressed: () {},
           child: const Text('Check Permission'),
         ),
       ),
